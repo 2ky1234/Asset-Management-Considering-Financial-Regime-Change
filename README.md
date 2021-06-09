@@ -10,7 +10,7 @@
 
 ### Regime_TDF_utils.py
 국면전환 포착모형과 TDF, Glide-Path를 구현하는 코드를 함수로 만들었다.
-( Turbulence Index, Absortion Ratio, weight of risky and safety assets )
+( Turbulence Index, Absortion Ratio, weight of risky & safety assets )
 
 ### Regime-Based Asset Allocation.ipynb
 논문의 전체적인 프로세스를 한국시장에 맞게 구현한 코드
