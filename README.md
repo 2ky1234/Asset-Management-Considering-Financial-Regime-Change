@@ -2,6 +2,24 @@
 
 논문링크 : https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09272519
 
+## 코드 설명 
+
+### utils.py
+백테스트에 필요한 성과지표들을 함수로 만들었다.
+( Mdd, Sharpe, VaR, Mean, Std 등 )
+
+### Regime_TDF_utils.py
+국면전환 포착모형과 TDF, Glide-Path를 구현하는 코드를 함수로 만들었다.
+( Turbulence Index, Absortion Ratio, weight of risky and safety assets )
+
+### Regime-Based Asset Allocation.ipynb
+논문의 전체적인 프로세스를 한국시장에 맞게 구현한 코드
+
+### 데이터
+데이터의 경우 kritzman_data.xlsx의 파일을 사용하며
+각 시트별로 필요한 데이터를 분리해서 담아두었다.
+
+
 ## 국면전환을 고려한 생애주기별 자산관리 분석
 
 • 생애주기별 자산관리는 투자목표 시점이 가까울 수록 위험자산의 비중을 줄여 나가는 특징을 지닌,
